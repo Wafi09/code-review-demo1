@@ -1,27 +1,14 @@
-# code-review-demo
+# Demo Code Review
 
-Proyek sederhana untuk mendemonstrasikan penggunaan Pylint sebagai alat Automated Code Review dalam proyek Python.
+Proyek ini adalah demonstrasi dari alat review kode otomatis menggunakan Python. Alat ini bertujuan untuk meningkatkan kualitas kode dengan mengintegrasikan API review kode GitHub.
 
-## Struktur Folder
+## Persyaratan
 
-```
-code-review-demo/
-├── src/
-│   └── main.py
-├── requirements.txt
-├── .github/
-│   └── workflows/
-│       └── code-review.yml
-└── README.md
-```
+Untuk menjalankan proyek ini, pastikan kamu sudah menginstal Python 3.x beserta dependensi yang diperlukan.
 
-## Cara Menjalankan Pylint Secara Lokal
+### Instalasi
 
-```bash
-pip install -r requirements.txt
-pylint src/
-```
+1. Clone repositori ini:
 
-## Integrasi GitHub Actions
-
-File `code-review.yml` akan menjalankan Pylint setiap kali ada push atau pull request ke repository ini.
+   ```bash
+   git clone https://github.com/Wafi09/code-review-demo1.git
